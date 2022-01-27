@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+}
+html, body {
+  min-height: 100%;
+}
+body {
+  background: radial-gradient(at top left, rgb(180, 240, 185) 10%, rgb(59, 194, 104) 90%);
+  background-repeat: no-repeat;
+  padding: 0 20px;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+@media only screen
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) {
+    nav {
+      display: flex;
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+    }
+ 
+    nav .links.active {
+        left: 0;
+    }
+    .active {
+        left: 0;
+    }
+    .links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #ffffff;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    section {
+      display: contents !important;
+    }
+    
+    nav {
+      display: flex; 
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+    }
+    nav .links {
+        display: none;
+    }
+    nav .links.active {
+        left: 0;
+    }
+    
+    .active {
+        left: 0;
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .active a {
+      margin-left: 10%;
+      font-weight: bold;
+    }
+    .links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #ffffff;
+    }
+    
+}
+
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  {
+
+  nav {
+    display: flex;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+  }
+  nav .links {
+      display: none;
+  }
+  nav .links.active {
+      left: 0;
+  }
+  
+  .active {
+      left: 0;
+      display: contents;
+      margin-bottom: 20px;
+  }
+  .active a {
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .links {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  nav a {
+      margin: 2.5rem 0;
+  }
+  .hamburger {
+      display: block;
+      cursor: pointer;
+      margin-left: 40%;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+  }
+}

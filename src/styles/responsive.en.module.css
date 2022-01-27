@@ -1,0 +1,580 @@
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px) {
+  .iframe {
+    width: 300px;
+    height: 200px;
+  }
+
+}
+/* Iphone X */
+
+@media only screen
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) {
+    nav {
+      display: flex;
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+    }
+    nav .links {
+        display: none;
+    }
+    nav .links.active {
+        left: 0;
+    }
+    
+    .active {
+        left: 0;
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .active a {
+      margin-left: 10%;
+    }
+    .links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #header {
+      display: block;
+    }
+    #header h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+    #header h3 {
+      font-size: 2em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    #header h4 {
+      font-size: 1em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  #header p {
+    text-align: center;
+  }
+  #HomeBtn {
+    display: block;
+    margin-left: 10%;
+  }
+  #clothes {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .iframe {
+    width: 300px;
+    height: 200px;
+      
+  }
+  #iframe {
+    margin-left: 5%;
+}
+#picture {
+  width: 200px;
+  display: none;
+}
+  .txtholder {
+      margin-bottom: 20%;
+  }
+  .info {
+    text-align: center;
+  }
+  #box {
+    height: 80px;
+    margin-bottom: 5%;
+  }
+  #box h4 {
+    padding: 10px;
+  }
+  #btn {
+    margin-left: 20%;
+  }
+  #serviceImg {
+    display: none;
+  }
+}
+/* Laptop 1024px*/
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px){
+  
+  section {
+    display: contents !important;
+  }
+  #header {
+    display: block;
+  }
+  #header h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #header h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #header h4 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#header p {
+  text-align: center;
+}
+#HomeBtn {
+  display: block;
+  margin-left: 25%;
+}
+#picture {
+  width: 300px;
+  margin-left: 30%;
+}
+#iframe {
+  margin-left: 30%;
+}
+.info h5 {
+  text-align: center;
+}
+#box {
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#box h4 {
+  padding: 5%;
+}
+#btn {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+#holder {
+  width: 500px;
+  margin: 0 auto;
+}
+#serviceImg {
+  display: none;
+}
+
+}
+
+/* Laptop 1366px*/
+
+
+
+/* Mobile */
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  {
+
+  nav {
+    display: flex;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+  }
+  nav .links {
+      display: none;
+  }
+  nav .links.active {
+      left: 0;
+  }
+  
+  .active {
+      left: 0;
+      display: contents;
+      margin-bottom: 20px;
+  }
+  .active a {
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .links {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  nav a {
+      margin: 2.5rem 0;
+  }
+  .hamburger {
+      display: block;
+      cursor: pointer;
+      margin-left: 40%;
+     
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+  .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+  }
+  #header {
+    display: block;
+  }
+  #header h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #header h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #header h4 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#header p {
+  text-align: center;
+}
+#HomeBtn {
+  display: block;
+  margin-left: 10%;
+}
+#clothes {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.iframe {
+  width: 300px;
+  height: 200px;
+    
+}
+#iframe {
+  margin-left: 5%;
+}
+#picture {
+width: 200px;
+display: none;
+}
+.txtholder {
+    margin-bottom: 20%;
+}
+.info {
+  text-align: center;
+}
+#box {
+  height: 80px;
+  margin-bottom: 5%;
+}
+#box h4 {
+  padding: 10px;
+}
+#btn {
+  margin-left: 20%;
+}
+#serviceImg {
+  display: none;
+}
+}
+
+/* iphone 6+, 7+ ,8+ */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    
+    nav {
+      display: flex; 
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+    }
+    nav .links {
+        display: none;
+    }
+    nav .links.active {
+        left: 0;
+    }
+    
+    .active {
+        left: 0;
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .active a {
+      margin-left: 10%;
+      font-weight: bold;
+    }
+    .links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #ffffff;
+    }
+    #header {
+      display: block;
+    }
+    #header h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+    #header h3 {
+      font-size: 2em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    #header h4 {
+      font-size: 1em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  #header p {
+    text-align: center;
+  }
+  #HomeBtn {
+    display: block;
+    margin-left: 15%;
+  }
+    #clothes {
+      margin-left: 5%;
+      max-width: 320px;
+    }
+  
+    .iframe {
+    width: 300px;
+    height: 200px;
+      
+  }
+  #iframe {
+    margin-left: 10%;
+}
+#picture {
+  width: 200px;
+  display: none;
+}
+  .txtholder {
+      margin-bottom: 20%;
+  }
+  .info {
+    text-align: center;
+  }
+  #box {
+    height: 80px;
+    margin-bottom: 5%;
+  }
+  #box h4 {
+    padding: 10px;
+  }
+  #btn {
+    margin-left: 25%;
+  }
+  #serviceImg {
+    display: none;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 641px) 
+  and (max-width: 767px){
+    nav {
+      display: flex; 
+      grid-template-columns: 1fr;
+      margin-left: 10%;
+    }
+    nav .links {
+        display: none;
+    }
+    nav .links.active {
+        left: 0;
+    }
+    
+    .active {
+        left: 0;
+        display: contents;
+        margin-bottom: 20px;
+        
+    }
+    .active a {
+      margin-left: 10%;
+      font-weight: bold;
+    }
+    .links {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-left: 40%;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #ffffff;
+    }
+    #header {
+      display: block;
+    }
+    #header h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+    #header h3 {
+      font-size: 2em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    #header h4 {
+      font-size: 1em;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  #header p {
+    text-align: center;
+  }
+  #HomeBtn {
+    display: block;
+    margin-left: 15%;
+  }
+    #clothes {
+      margin-left: 5%;
+      max-width: 320px;
+    }
+  
+    .iframe {
+    width: 300px;
+    height: 200px;
+      
+  }
+  #iframe {
+    margin-left: 25%;
+}
+#picture {
+  width: 200px;
+  display: none;
+}
+  .txtholder {
+      margin-bottom: 20%;
+  }
+  .info {
+    text-align: center;
+  }
+  #box {
+    height: 80px;
+    margin-bottom: 5%;
+  }
+  #box h4 {
+    padding: 10px;
+  }
+  #btn {
+    margin-left: 25%;
+  }
+  #serviceImg {
+    display: none;
+  }
+}
+  

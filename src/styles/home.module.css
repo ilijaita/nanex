@@ -1,0 +1,68 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: unset;
+  }
+  .title {
+    border: none;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .header h2 {
+    font-size: 4em;
+  }
+  .header h3 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: inline-block;
+    background: #ffffff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(24, 223, 34) ;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .btn:hover {
+    background: rgb(192, 255, 46) ;
+    color: white;
+  }
+  .clothes {
+    max-width: 350px;
+    margin-left: 30%;
+  }
+/*
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .header {
+        display: flex;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+      }
+      .header h2 {
+        font-size: 2em;
+        text-align: center;
+        font-weight: 500;
+      }
+      .header h3 {
+        font-size: 2em;
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .header p {
+        text-align: center;
+      }
+     }
+     
+     */
+
